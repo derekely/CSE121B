@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skull King Score Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Skull King Score Calculator</h1>
+    </header>
+    <main>
+            <article>
+                <h3>* If the player has no bonus, input "0" on bonus</h3>
+                <div>
+                    <!-- Round -->
+                    <label for="round">Round:</label>
+                    <input type="text" id="round" name="round">                    
+                </div>
+                <div>
+                    <!-- Bids for tricks -->
+                    <label for="bid">Bid:</label>
+                    <input type="text" id="bid" name="bid">
+                </div>
+                <div>
+                    <!-- Tricks won -->
+                    <label for="won">Won:</label>
+                    <input type="text" id="won" name="won">
+                </div>
+                <div> 
+                    <!-- Bonus Points -->
+                    <label for="bonus">*Bonus:</label>
+                    <input type="text" id="bonus" name="bonus">               
+                </div>
+                <div>
+                    <!-- Calculate! -->
+                    <input type="button" id="calculate" value="CALCULATE!">
+                </div>
+                <div>
+                    <!-- Score from the points earned -->
+                    <label for="Score">Score:</label>
+                    <input type="text" id="score" name="score" disabled>                     
+            </article>
+<script src="skull-king-score-calculator.js"></script>
+</body>
+</html>

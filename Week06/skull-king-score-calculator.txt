@@ -1,0 +1,22 @@
+Alright... Let's think this through...
+
+
+
+This should be simple, yet hard because of the fancy rules of scoring:
+
+Scoring rules: 
+If you get the amount of tricks you guessed you would get that round, 
+you would get that many points * 10 (say I bet I'd get 4 tricks and I got 4 tricks after the round ended I'd have 40 points)
+However if I miss my mark then I will subtract points based on how off I was (say I bet 4 and got 3 then I'd get -10 points)
+
+Zero is a special case:
+This all depends on the round. If you bet you'll win zero wins then you will get 10 points depending on the round number
+(so if it was round 5 and i bet 0 and got 0 tricks then I'd get 50 points)
+Here's the catch, you lose that many points if you even get a single tricks
+(If I got 1 trick when I bet 0 on round 9 then I'd get -90 points)
+
+I first need to write that rule system into a function to have as a function.
+
+I'll have another function that will read what the user inputs into the calculator and pass it through the previous function.
+
+Have a listener to listen for a click on the calculate. 
